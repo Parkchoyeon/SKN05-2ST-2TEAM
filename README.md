@@ -48,44 +48,38 @@
 <img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=Google Colab&logoColor=white"/></a>
 
-# 4. 가설과 가설 검정
-### :heavy_check_mark:가설 1: 고객의 가입 기간이 길수록 이탈 가능성이 낮다
-- **데이터 수집**:
-- **통계 분석**:
-- **결과 해석**:
-- **결과**:
-<i>가입 기간이 길수록 고객의 이탈 가능성이 낮다는 유의미한 결과를 도출함</i>
-
-### :heavy_check_mark:가설 2: 
-- **데이터 수집**:
-- **통계 분석**:
-- **결과 해석**:
-- **결과**:
-<i></i>
-
-### 가설
-- 가설1:
-- 가설2:
-- 가설3:
-  
-### 가설 검정
-- 데이터 수집 결과
-
-- 데이터 분석(상관계수)
-
-- 모델 학습
-
-- 분석 결과
+# 4. 데이터분석 및 전처리
+### :heavy_check_mark: 데이터 개요
+- **컬럼 수**: 총 66개의 컬럼 중 불필요한 37개의 컬럼 제거 후 29개 사용
+- **결측치 처리**: Offer, Total Charges 등(사진)
+- **데이터의 특성을 고려하여 인코딩 진행**: Age, Number of Dependents4 등
 
 
-# 5. 수행결과
+### :heavy_check_mark: 전처리 
+- 결측치 처리 Offer, Total Charges 등
+- 이상치 및 결측치 확인, 연속형 데이터의 분포 확인(사진)
+- 데이터 인코딩(사진)
+- 상관관계 분석(사진)
+- 주요 컬럼 및 최종 선정 컬럼
+- 가설에 따른 이탈률
 
-## 분석을 위한 전처리 코드
+# 5. 모델 성능비교 및 해석
+- 하이퍼파라미터 그리드 설정, Best Model 선정
+- 하이퍼파라미터 튜닝 - GBM
+- ROC 커브 시각화 함수
+- Precision-Recall 커브 시각화 함수
+- 박스플롯 비교 함수
+
+# 6. 시사점
+- 통신사 이탈에 가장 큰 영향을 미치는 주요 요인
+- 통신사 시장 점유율
+- 현재 통신사가 놓치고 있는 점
+- 고객 만족도 향상 전략
 
 
 
-
-- **데이터 분석**:
+# :smirk: 한줄 회고
+<table align=center>
 
 
 
